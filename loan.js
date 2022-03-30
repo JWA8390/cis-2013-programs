@@ -20,7 +20,6 @@ var $ = function (id)
     $("total_cost").value = floatTotalCost;
  }
  
- 
  window.onload = function () 
 {
     $("loan_length").value = "";
