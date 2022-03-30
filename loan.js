@@ -2,7 +2,7 @@ var $ = function (id)
 {
     return document.getElementById(id);
 }
-var floatMonthlyPayment, floatTotalCost, intLoanTerm
+var floatMonthlyPayment, floatTotalCost, intLoanTerm;
 
 /*
  *start
@@ -15,7 +15,7 @@ var floatMonthlyPayment, floatTotalCost, intLoanTerm
 */
  var calculate = function()
  {
-    var floatMonthlyPayment, intLoanTerm, floatTotalCost;
+    //var floatMonthlyPayment, intLoanTerm, floatTotalCost;
     floatMonthlyPayment = parseFloat($("monthly_payment").value);
     intLoanTerm = parseInt($("loan_length").value);
     floatTotalCost = parseFloat(floatMonthlyPayment * intLoanTerm);
