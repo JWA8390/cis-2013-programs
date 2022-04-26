@@ -24,7 +24,7 @@ while (intGuess != intRandom) {
         }
     } else {
         intGuess = parseInt(prompt("Your guess of " + intGuess + " is too high. Please guess again"));
-        while (isNaN(intGuess)|| intGuess < intMin || intguess > intmax) {
+        while (isNaN(intGuess)|| intGuess < intMin || intGuess > intMax) {
             intGuess = parseInt(prompt("Sorry, you need to choose a number between" + intMin + " and " + intMax));
         }
     }
