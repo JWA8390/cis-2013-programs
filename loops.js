@@ -31,4 +31,4 @@ while (intGuess != intRandom) {
     intCount++
 }
 
-alert("Congratulations, you guessed the random number of " + intRandom + " in only " + intCount + "attempts!!")
+alert("Congratulations, you guessed the random number of " + intRandom + " in only " + intCount + " attempts!!")
